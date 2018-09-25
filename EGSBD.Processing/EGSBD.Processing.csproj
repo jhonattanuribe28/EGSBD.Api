@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EGSBD.Models\EGSBD.Models.csproj" />
+    <ProjectReference Include="..\EGSBD.Repository\EGSBD.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
